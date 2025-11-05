@@ -1,0 +1,46 @@
+[
+  {
+    "model": "pricing.pricingrule",
+    "pk": 1,
+    "fields": {
+      "rule_type": "percent_discount",
+      "condition_value": 100,
+      "discount_amount": 10,
+      "created_at": "2025-11-05T10:00:00Z",
+      "updated_at": "2025-11-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "pricing.pricingrule",
+    "pk": 2,
+    "fields": {
+      "rule_type": "fixed_discount",
+      "condition_value": 150,
+      "discount_amount": 20,
+      "created_at": "2025-11-05T10:00:00Z",
+      "updated_at": "2025-11-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "pricing.pricingrule",
+    "pk": 3,
+    "fields": {
+      "rule_type": "percent_discount",
+      "condition_value": 500,
+      "discount_amount": 25,
+      "created_at": "2025-11-05T10:00:00Z",
+      "updated_at": "2025-11-05T10:00:00Z"
+    }
+  },
+  {
+    "model": "pricing.pricingrule",
+    "pk": 4,
+    "fields": {
+      "rule_type": "fixed_discount",
+      "condition_value": 250,
+      "discount_amount": 50,
+      "created_at": "2025-11-05T10:00:00Z",
+      "updated_at": "2025-11-05T10:00:00Z"
+    }
+  }
+]
